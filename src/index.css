@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a;
+  overflow: hidden;
+}
+
+/* Estilos para formularios dentro del panel oscuro */
+input, textarea, select {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #f1f5f9 !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #64748b !important;
+}
+
+.font-cv { font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
+.custom-scrollbar::-webkit-scrollbar { width: 5px; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 10px; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
