@@ -86,13 +86,12 @@ src/
 ├── App.jsx           # Orquestador principal y gestión de estado global
 ├── index.css         # Configuración nativa de Tailwind CSS v4
 └── main.jsx          # Punto de entrada de la aplicación
-
+```
 
 El flujo de la aplicación se encarga de:
 - **Gestión del estado:** Sincronización entre el formulario y la vista previa.
 - **Internacionalización:** Traducción dinámica de etiquetas y campos.
 - **Compilación PDF:** Transformación de componentes React a formato vectorial imprimible.
-```
 
 ---
 
@@ -103,29 +102,18 @@ El flujo de la aplicación se encarga de:
 git clone https://github.com/A6u5/ATS-PRO.git
 cd ATS-PRO
 ```
----
 
-### 2. Ejecución
+### 2. Configuración e Instalación
+```bash
+npm install
+```
+
+### 3. Ejecución
 Para iniciar el entorno de desarrollo:
 - ```npm run dev```
 
 La aplicación estará disponible en:
 - `http://localhost:5173`
-
----
-
-## 📸 Capturas de pantalla
-
-### 🖋️ Editor Multilenguaje
-![Editor](https://via.placeholder.com/800x450?text=Editor+Interface+ES-EN)
----
-
-### 📄 Previsualización de Plantilla
-![Preview](https://via.placeholder.com/800x450?text=Harvard+Template+Preview)
----
-
-### 📊 ATS Checker
-![ATS Tool](https://via.placeholder.com/800x450?text=ATS+Checker+Tool)
 
 ---
 
